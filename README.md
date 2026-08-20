@@ -4,9 +4,9 @@ A MATLAB script that uses forward, backward and central difference method to app
 ## Polynomial description
 
 - Coefficients (MATLAB vector, descending powers): `p = [3 5 7 8]`
-- Polynomial: p(x) = 3x^3 + 5x^2 + 7x + 8
-- Analytical derivative: p'(x) = 9x^2 + 10x + 7
-- True derivative at x0 = 0: p'(0) = 7 — this is used as the reference value when computing the absolute error for the finite-difference approximations.
+- Polynomial: $p(x) = 3x^3 + 5x^2 + 7x + 8$
+- Analytical derivative: $p'(x) = 9x^2 + 10x + 7$
+- True derivative at x0 = 0: $p'(0) = 7$ — this is used as the reference value when computing the absolute error for the finite-difference approximations.
 - Step size used for finite-difference approximations (h): `h = 0.2` (default in the script)
 
 Notes:
